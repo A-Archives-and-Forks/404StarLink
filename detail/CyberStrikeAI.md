@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-go-blue)
 ![Author](https://img.shields.io/badge/Author-Ed1s0nZ-orange)
 ![GitHub stars](https://img.shields.io/github/stars/Ed1s0nZ/CyberStrikeAI.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.3.23-red)
+![Version](https://img.shields.io/badge/Version-V1.6.47-red)
 ![Time](https://img.shields.io/badge/Join-20251229-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -16,6 +16,9 @@
 
 
 ## 最近更新
+
+#### [v1.6.47] - 2026-06-27
+修复同一对话中重复发送相同用户提示词时，因历史去重逻辑误判而不再追加本轮 user 消息、导致请求以 assistant 结尾并触发 Claude 4.6+ 返回 400（assistant-prefill final message is not supported）的问题；现仅在尾部已是相同 user 内容时才跳过追加，重复提示词可正常续聊。
 
 #### [v1.3.23] - 2026-03-10
 

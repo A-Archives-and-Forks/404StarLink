@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Python-blue)
 ![Author](https://img.shields.io/badge/Author-FunnyWolf-orange)
 ![GitHub stars](https://img.shields.io/github/stars/FunnyWolf/agentic-soc-platform.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.2.0-red)
+![Version](https://img.shields.io/badge/Version-V0.4.1-red)
 ![Time](https://img.shields.io/badge/Join-20251205-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -17,6 +17,11 @@ README
 
 
 ## 最近更新
+
+#### [v0.4.1] - 2026-06-28
+
+ 针对 Linux 生产环境修复 Docker Compose 包，包括初始化、证书生成、健康检查和后台工作进程配置刷新。
+
 
 #### [v0.2.0] - 2026-01-28
 

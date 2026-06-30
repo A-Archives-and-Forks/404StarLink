@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-JavaScript-blue)
 ![Author](https://img.shields.io/badge/Author-0xsdeo-orange)
 ![GitHub stars](https://img.shields.io/github/stars/0xsdeo/AntiDebug_Breaker.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V3.0.4-red)
+![Version](https://img.shields.io/badge/Version-V3.0.8-red)
 ![Time](https://img.shields.io/badge/Join-20260311-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -18,7 +18,12 @@ README
 
 ## 最近更新
 
-#### [v3.0.4] - 2026-03-11
+#### [v3.0.8] - 2026-06-10
+
+ - 加入在线使用文档 
+
+
+#### [v3.0.4] - 2026-02-18
 
  谷歌插件应用商店：https://chromewebstore.google.com/detail/antidebug-breaker/opkclndfcbafdaecbbaklefnaadopcln 
  - 增加hook performance.now脚本。 

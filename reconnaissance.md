@@ -21,7 +21,7 @@
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.4-red)
+![Version](https://img.shields.io/badge/Version-V2.0.5-red)
 
 <https://github.com/wgpsec/ENScan_GO>
 
@@ -61,7 +61,7 @@ ksubdomain是一款基于无状态子域名爆破工具，支持在Windows/Linux
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![Language](https://img.shields.io/badge/Language-Go-blue)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/qscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.1-red)
+![Version](https://img.shields.io/badge/Version-V1.8.2-red)
 
 <https://github.com/qi4L/qscan>
 

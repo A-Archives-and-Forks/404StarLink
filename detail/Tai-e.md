@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-pascal_lab-orange)
 ![GitHub stars](https://img.shields.io/github/stars/pascal-lab/Tai-e.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.5.1-red)
+![Version](https://img.shields.io/badge/Version-V0.5.4-red)
 ![Time](https://img.shields.io/badge/Join-20230913-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -143,6 +143,13 @@ The educational version shares a large amount of code with Tai-e, thus doing the
 - 2023-10-08 发布演示视频[程序分析框架“太阿”与安全漏洞的那些事之Log4Shell篇](https://www.bilibili.com/video/BV1ez4y1F7VB/)
 
 ## 最近更新
+
+#### [v0.5.4] - 2026-06-27
+**新功能** 
+ - 新增前端，用于将输入的 Java 程序转换为 Taie IR 
+ - 新增 Android 分析插件 
+ - 新增 Spring DI 和 WEC 分析插件
+ - 在 `pascal.taie.backend` 中新增 Taie IR 的后端实现
 
 #### [v0.5.1] - 2025-12-31
 

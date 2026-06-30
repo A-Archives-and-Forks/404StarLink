@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Java-blue)
 ![Author](https://img.shields.io/badge/Author-X1r0z-orange)
 ![GitHub stars](https://img.shields.io/github/stars/X1r0z/JNDIMap.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.0.4-red)
+![Version](https://img.shields.io/badge/Version-V0.0.5-red)
 ![Time](https://img.shields.io/badge/Join-2025098-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -95,6 +95,14 @@ mvn package -Dmaven.test.skip=true
 
 
 ## 最近更新
+
+#### [v0.0.5] - 2026-05-04
+
+ - 支持 Lambda 类名后缀混淆 
+ - 支持 Vibur DBCP JDBC RCE 
+ - 支持 Databricks JNDI 注入 
+ - 支持 Hessian RCE 
+ - 增加 Agent Skills
 
 #### [v0.0.4] - 2025-11-20
 

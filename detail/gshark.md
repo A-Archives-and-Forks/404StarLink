@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-madneal-orange)
 ![GitHub stars](https://img.shields.io/github/stars/madneal/gshark.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.6.5-red)
+![Version](https://img.shields.io/badge/Version-V2.1.5-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -198,6 +198,14 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 
 ## 最近更新
 
+#### [v2.1.5] - 2026-06-28
+
+ **修复** - Casbin 初始化和默认策略 — @madneal (300) 
+ **修复** -  Casbin 运行时初始化 panic — @madneal (301) 
+ **修复** - 恢复历史标签页路由 — @madneal (302) 
+ - 移除遗留的 Casbin ptype 修复逻辑 — @madneal (303)
+
+
 #### [v1.6.5] - 2025-10-30
 
 **修复** - MacOS arm 芯片 release 包
@@ -233,10 +241,5 @@ You are supposed to rename `config-temp.yaml` to `config.yaml` and config the da
 **新增**  
 - 支持 OPENAI 兼容模式进行 AI 分析  
 - 更新 config 模板文件
-
-#### [v1.5.2] - 2025-01-02
-
-**修复**  
-- 修复没有 Matches 的情况下无法展示结果的问题
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

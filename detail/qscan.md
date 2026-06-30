@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Go-blue)
 ![Author](https://img.shields.io/badge/Author-qi4L-orange)
 ![GitHub stars](https://img.shields.io/github/stars/qi4L/qscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V1.8.1-red)
+![Version](https://img.shields.io/badge/Version-V1.8.2-red)
 ![Time](https://img.shields.io/badge/Join-20250513-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -45,6 +45,11 @@ FScan
 
 
 ## 最近更新
+
+#### [v1.8.2] - 2026-05-24
+
+ - 大量优化，exp并发不占用port和url并发组  
+
 
 #### [v1.8.1] - 2025-11-27
 

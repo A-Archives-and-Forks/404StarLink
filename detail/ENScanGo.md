@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-wgpsec-orange)
 ![GitHub stars](https://img.shields.io/github/stars/wgpsec/ENScan_GO.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.4-red)
+![Version](https://img.shields.io/badge/Version-V2.0.5-red)
 ![Time](https://img.shields.io/badge/Join-20221117-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -280,6 +280,11 @@ go >= 1.22.1
 
 ## 最近更新
 
+#### [v2.0.5] - 2026-05-28
+
+ - 修复AQC 查询问题 
+ - 修复部分深度查询情况下会报错的问题
+
 #### [v2.0.4] - 2025-10-31
 
 **修复**  
@@ -303,10 +308,5 @@ go >= 1.22.1
 
 **修复**  
 - 修复TYC查询问题。
-
-#### [v1.2.1] - 2025-03-29
-
-**更新**  
-- 增加支持介入MCP协议，方便接入本地大模型调用。
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

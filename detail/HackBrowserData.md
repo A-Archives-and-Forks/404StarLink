@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-moonD4rk-orange)
 ![GitHub stars](https://img.shields.io/github/stars/moonD4rk/HackBrowserData.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V0.4.6-red)
+![Version](https://img.shields.io/badge/Version-V1.1.0-red)
 ![Time](https://img.shields.io/badge/Join-20201221-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -179,6 +179,12 @@ PS C:\Users\moond4rk\Desktop> .\hack-browser-data.exe -b chrome -p "C:\Users\Use
 
 ## 最近更新
 
+#### [v1.1.0] - 2026-06-15
+**端到端跨主机工作流程** 
+ **在 macOS/Linux 上恢复仅限 Windows 系统的浏览器** 
+ **跨平台 Chromium 解密** 
+ **更简洁的命令行界面** 
+
 #### [v0.4.6] - 2024-07-16
 
 **更新**  
@@ -229,12 +235,5 @@ PS C:\Users\moond4rk\Desktop> .\hack-browser-data.exe -b chrome -p "C:\Users\Use
 - 修复当过滤结果为空并导出到 csv 时，对其进行 utf8 编码  
 - 修复 Windows 下 Chrome 和 OperaGx 的配置文件夹  
 - 修复拼写错误
-
-#### [v0.4.2] - 2022-05-01
-
-**更新**  
-- 新增导出扩展
-- 新增设置控制台 log 日志的色彩  
-- 文档添加 HackBrowserData 的 logo
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->

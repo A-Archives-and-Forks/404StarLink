@@ -18,7 +18,7 @@
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.1-red)
+![Version](https://img.shields.io/badge/Version-V2.1.3-red)
 
 <https://github.com/shadow1ng/fscan>
 
@@ -28,7 +28,7 @@
 ![Author](https://img.shields.io/badge/Author-AntSwordProject-orange)
 ![Language](https://img.shields.io/badge/Language-Nodejs-blue)
 ![GitHub stars](https://img.shields.io/github/stars/AntSwordProject/antSword.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.15-red)
+![Version](https://img.shields.io/badge/Version-V2.1.16-red)
 
 <https://github.com/AntSwordProject/antSword>
 

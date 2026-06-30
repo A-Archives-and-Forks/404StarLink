@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Nodejs-blue)
 ![Author](https://img.shields.io/badge/Author-AntSwordProject-orange)
 ![GitHub stars](https://img.shields.io/github/stars/AntSwordProject/antSword.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.1.15-red)
+![Version](https://img.shields.io/badge/Version-V2.1.16-red)
 ![Time](https://img.shields.io/badge/Join-20201120-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -78,6 +78,18 @@
 - 2021-11-15 发布文章[《蚁剑绕WAF进化图鉴》](https://mp.weixin.qq.com/s/EYP1ANj7pxM8_NX_7R9WjA)
 
 ## 最近更新
+
+#### [v2.1.16] - 2026-04-25
+
+ **❗️安全更新 (重要)** 
+ - Fix terminal 格式码语法字符输出时未过滤完全导致的 xss 漏洞, 由于在 webview 中开启了 nodejs 功能, 可借此引起 1Click RCE #370 (thx @s2cr3t) 
+ -  增加了 noxssTerminal 同时禁用了 terminal 中 link 解析功能 
+ **文件管理** 
+ - 新增文件分片上传请求间隔机制 
+ - 原有的文件分片上传无时间间隔，易触发限流导致上传失败。可通过控制上传请求间隔降低发包速率。 
+ **数据管理** 
+ - 新增「文件分片上传请求间隔」, 默认 1000ms 
+ - 修正 PHP4 类型数据管理模块打不开的问题
 
 #### [v2.1.15] - 2022-07-17
 

@@ -3,7 +3,7 @@
 ![Language](https://img.shields.io/badge/Language-Golang-blue)
 ![Author](https://img.shields.io/badge/Author-shadow1ng-orange)
 ![GitHub stars](https://img.shields.io/github/stars/shadow1ng/fscan.svg?style=flat&logo=github)
-![Version](https://img.shields.io/badge/Version-V2.0.1-red)
+![Version](https://img.shields.io/badge/Version-V2.1.3-red)
 ![Time](https://img.shields.io/badge/Join-20210422-green)
 <!--auto_detail_badge_end_fef74f2d7ea73fcc43ff78e05b1e7451-->
 
@@ -249,6 +249,12 @@ paru -S fscan-git
 
 ## 最近更新
 
+#### [v2.1.3] - 2026-05-15
+
+ - 2e277a5: fix: 修复 plugins/local 未使用变量导致编译失败 (@ZacharyZcR) 
+ - 7459da2: fix: 恢复 plugins/local 中实际使用的 config 变量 (@ZacharyZcR) 
+ - 9d19188: fix: 移除 composite action 中不支持的 timeout-minutes (@ZacharyZcR)
+
 #### [v2.0.1] - 2025-07-22
 
 **新增**  
@@ -284,12 +290,5 @@ paru -S fscan-git
 **更新**  
 - 新增 hash 碰撞  
 - 新增 wmiiexec 无回显命令执行
-
-#### [v1.8.1] - 2022-07-06
-
-**更新**  
-- 加入手工gc回收,尝试节省无用内存  
-- -url 支持逗号隔开  
-- 修复一个poc模块bug
 
 <!--auto_detail_active_end_f9cf7911015e9913b7e691a7a5878527-->
